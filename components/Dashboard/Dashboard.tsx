@@ -58,7 +58,7 @@ const Dashboard: React.FC = () => {
   };
 
   return (
-    <div className="min-h-screen bg-[#020617] p-6 md:p-12 font-sans relative overflow-hidden">
+    <div className="min-h-screen bg-[#020617] p-6 md:p-12 font-sans relative overflow-x-hidden">
         {/* Ambient Background */}
         <div className="absolute top-[-20%] right-[-10%] w-[600px] h-[600px] bg-indigo-500/10 rounded-full blur-[120px] pointer-events-none" />
         <div className="absolute bottom-[-20%] left-[-10%] w-[600px] h-[600px] bg-emerald-500/10 rounded-full blur-[120px] pointer-events-none" />
